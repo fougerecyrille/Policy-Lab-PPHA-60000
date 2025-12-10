@@ -104,7 +104,8 @@ _safe_download("sentiment/vader_lexicon", "vader_lexicon")
 # -------------------------------
 
 # Path to ZIP file containing CalWORKs CSAs
-ZIP_PATH = r'/Users/cyrillefougere/Desktop/CalWORKs data.zip'  # Edit if needed
+ZIP_PATH =  # Edit the file path so that it points to the .zip file where all the different reports from the various California counties are stored; the word clouds and 
+# sentiment analysis will be performed on the reports stored in the aforementioned .zip file
 BASE_DIR = Path(ZIP_PATH).parent
 
 # Folder where ZIP will be extracted
